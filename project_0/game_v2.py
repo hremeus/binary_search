@@ -44,4 +44,4 @@ def score_game(random_predict) -> int:
     return(score)
 
 
-score_game(random_predict) # запуск программы    
+score_game(random_predict) # запуск программы
