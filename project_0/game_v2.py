@@ -5,7 +5,7 @@
 import numpy as np
 
 def random_predict(number:int=1) -> int:
-    """Рандомно угадываем число
+    """Нерандомно угадываем число
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
@@ -14,12 +14,18 @@ def random_predict(number:int=1) -> int:
         int: Число попыток
     """
     count = 0
+    bottom = 1
+    upper = 101
     
     while True:
         count+=1
-        predict_number = np.random.randint(1,101) # предполагаемое число
+        predict_number = int((upper + bottom) / 2) # предполагаемое число
         if number == predict_number:
-            break    
+            break
+        if number > predict_number:
+            bottom = predict_number
+        else:
+            upper = predict_number    
     return(count) # выход из цикла
 
 def score_game(random_predict) -> int:
