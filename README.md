@@ -6,7 +6,7 @@ From the [SkillFactory Data Science course](https://skillfactory.ru/data-scienti
 ## Проекты
 
 
-* [Проект 0. Игра: Угадай число](https://github.com/hremeus/ds_learning/project_0)
+* [Проект 0. Игра: Угадай число](https://github.com/hremeus/ds_learning/tree/main/project_0)
 * [Проект 1. ]
 * []
 
