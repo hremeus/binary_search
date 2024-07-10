@@ -11,5 +11,6 @@
 * [Проект 2. Анализ вакансий на HeadHunter](https://github.com/hremeus/PosgreSQL_via_psycopg2_DM/tree/master/project_2)
 * [Проект 3. EDA + Feature Engineering](https://github.com/hremeus/Eda_Feature_engineering/tree/master/project_3)
 * [Проект 4. Задача Классификации](https://github.com/hremeus/ML_classification_task/tree/master/project_4)
-* [Проект Дипломный. Классификация сердечно-сосудистых заболеваний](https://github.com/hremeus/ML_Stacking/tree/master)
+* [Проект 5. Классификация сердечно-сосудистых заболеваний](https://github.com/hremeus/ML_Stacking/tree/master)
+
 
